@@ -104,6 +104,43 @@ nav.div {
     font-size: 18px;
     transform: translate(-50%, -50%);
 }
+.buy-button{
+    padding: 10px;
+    left: 10%;
+    background-color: #2c67e6;
+    color: rgb(248, 245, 245);
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 170px;
+    cursor: pointer;    
+}
+.buy-button:hover {
+    transition: background-color 0.3s ease;
+    background-color: #0a0a0a;
+}
+.learn-with-ai-button{
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 170px;
+    cursor: pointer;    
+}
+.learn-with-ai-button:hover {
+    transition: background-color 0.3s ease;
+    background-color: #ec80ec;
+}
 .first-content{
     margin: 20px;
     display: flex;
@@ -176,7 +213,7 @@ nav.div {
 }
 .enroll-btn:hover {
     transition: background-color 0.3s ease;
-    background-color: #0b5177;
+    background-color: #000000;
 }   
 .content:hover .tooltip-text {
     visibility: visible;
@@ -265,8 +302,8 @@ nav.div {
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 50%;
-    left: 12%;
+    top: 350px;
+    left: 190px;
     transform: translate(-50%, -50%);
     background-color: rgba(105, 104, 104, 0.5);
     opacity: 1;
@@ -275,7 +312,7 @@ nav.div {
     font-weight: bold;
     height: 400px;
     min-width: 200px;
-    width: 100%;
+    width: 300px;
     padding: 20px;
 }
 .third-card-text h2{
@@ -304,15 +341,14 @@ nav.div {
     border-radius: 10px;
     top: 300px;
     width: 100%;
-    left: 65%;
+    left: 1500px;
     transform: translate(-50%, -50%);
 }
 .third-sub-img-list img{
     flex: 1;
     height: 200px;
-    min-width: 200px;
-    width: 100%;
-    border: 1px solid #55f803;
+    width: 200px;
+    border: 1px solid #e910af;
     border-radius: 10px;
 }
 .third-sub-img-list-2{
@@ -323,7 +359,7 @@ nav.div {
     height: 250px;
     border-radius: 10px;
     top: 550px;
-    left: 65%;
+    left: 1500px;
     width: 100%;
     transform: translate(-50%, -50%);
 }
@@ -331,7 +367,7 @@ nav.div {
     flex: 1;
     height: 200px;
     width: 200px;
-    border: 1px solid #55f803;
+    border: 1px solid #e910af;
     border-radius: 10px;
 }
 .third-sub-img-list-2 img:hover{
@@ -406,6 +442,7 @@ nav.div {
     flex-direction: column;
     gap: 10px;
     color: #ffffff;
+    padding-left: 20px;
 }
 .footer-section-social h3{
     text-decoration: bold;
@@ -434,6 +471,6 @@ nav.div {
 }
 .footer-section-social ul li a img:hover{
     transition: transform 0.3s ease;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
  
